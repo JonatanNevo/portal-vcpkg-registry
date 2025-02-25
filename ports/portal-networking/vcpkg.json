@@ -1,6 +1,6 @@
 {
   "name": "portal-networking",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The networking module for the Portal framework.",
   "license": "MIT",
   "dependencies": [
