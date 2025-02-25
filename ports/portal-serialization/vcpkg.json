@@ -1,0 +1,20 @@
+{
+  "name": "portal-serialization",
+  "version": "0.0.1",
+  "description": "Serialization library for Portal",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "portal-core",
+      "version>=": "0.0.1"
+    },
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
