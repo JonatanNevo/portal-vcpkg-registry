@@ -17,7 +17,7 @@
       "port-version": 0
     },
     "portal-networking": {
-      "baseline": "0.0.1",
+      "baseline": "0.0.2",
       "port-version": 0
     },
     "portal-serialization": {
