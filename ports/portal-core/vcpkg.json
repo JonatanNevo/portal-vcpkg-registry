@@ -1,6 +1,7 @@
 {
   "name": "portal-core",
   "version": "0.1.2",
+  "port-version": 1,
   "description": "Application interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
@@ -26,6 +27,13 @@
     {
       "name": "spdlog",
       "version>=": "1.16.0"
+    },
+    {
+      "name": "tracy",
+      "features": [
+        "gui-tools"
+      ],
+      "version>=": "0.11.1#2"
     },
     {
       "name": "vcpkg-cmake",

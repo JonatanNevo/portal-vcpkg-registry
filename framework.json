@@ -7,7 +7,7 @@
             "name": "llvm-adt",
             "short_name": "llvm-adt",
             "target_override": "llvm::adt",
-            "version": "0.1.0",
+            "version": "0.1.2",
             "description": "The ADT containers from the llvm project",
             "options": [],
             "dependencies": []
@@ -16,7 +16,7 @@
             "name": "portal-core",
             "short_name": "core",
             "target_override": null,
-            "version": "0.1.0",
+            "version": "0.1.2",
             "description": "Application interface for the Portal framework",
             "options": [
                 "PORTAL_FIND_PACAKGE=ON"
@@ -48,6 +48,13 @@
                     "features": [
                         "override"
                     ]
+                },
+                {
+                    "name": "tracy",
+                    "version": "0.11.1#2",
+                    "features": [
+                        "gui-tools"
+                    ]
                 }
             ]
         },
@@ -55,7 +62,7 @@
             "name": "portal-application",
             "short_name": "application",
             "target_override": null,
-            "version": "0.1.0",
+            "version": "0.1.2",
             "description": "The application interface for the Portal framework",
             "options": [],
             "dependencies": [
@@ -70,7 +77,7 @@
             "name": "portal-input",
             "short_name": "input",
             "target_override": null,
-            "version": "0.1.0",
+            "version": "0.1.2",
             "description": "The input interface for the Portal framework",
             "options": [],
             "dependencies": [
@@ -100,7 +107,7 @@
             "name": "portal-networking",
             "short_name": "networking",
             "target_override": null,
-            "version": "0.1.0",
+            "version": "0.1.2",
             "description": "The networking interface for the Portal framework",
             "options": [],
             "dependencies": [
@@ -120,7 +127,7 @@
             "name": "portal-serialization",
             "short_name": "serialization",
             "target_override": null,
-            "version": "0.1.0",
+            "version": "0.1.2",
             "description": "The serialization interface for the Portal framework",
             "options": [],
             "dependencies": [
@@ -140,7 +147,7 @@
             "name": "portal-engine",
             "short_name": "engine",
             "target_override": null,
-            "version": "0.1.0",
+            "version": "0.1.2",
             "description": "A game engine built on top of the Portal framework",
             "options": [],
             "dependencies": [
