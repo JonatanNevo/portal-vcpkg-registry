@@ -10,11 +10,7 @@
     },
     {
       "name": "imgui",
-      "features": [
-        "docking-experimental",
-        "glfw-binding",
-        "vulkan-binding"
-      ],
+      "features": [ "docking-experimental",  "glfw-binding",  "vulkan-binding" ],
       "version>=": "1.91.7"
     },
     {
