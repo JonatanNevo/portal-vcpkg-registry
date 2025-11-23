@@ -1,16 +1,16 @@
 {
   "name": "portal-networking",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "The networking interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
     {
-      "name": "portal-core",
-      "version>=": "0.1.0"
-    },
-    {
       "name": "gamenetworkingsockets",
       "version>=": "1.4.1#1"
+    },
+    {
+      "name": "portal-core",
+      "version>=": "0.1.0"
     },
     {
       "name": "vcpkg-cmake",
