@@ -1,16 +1,24 @@
 {
   "name": "portal-input",
-  "version": "0.0.1",
-  "description": "The input module for the Portal framework.",
+  "version": "0.1.0",
+  "description": "The input interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
+    {
+      "name": "portal-core",
+      "version>=": "0.1.0"
+    },
+    {
+      "name": "portal-application",
+      "version>=": "0.1.0"
+    },
     {
       "name": "glfw3",
       "version>=": "3.4#1"
     },
     {
-      "name": "portal-core",
-      "version>=": "0.0.1"
+      "name": "glaze",
+      "version>=": "6.0.1"
     },
     {
       "name": "vcpkg-cmake",

@@ -6,7 +6,7 @@ vcpkg_from_github(
         HEAD_REF fix/vcpkg-packaging
 )
 
-set(SOURCE_PATH "${SOURCE_PATH}/serialization")
+set(SOURCE_PATH "${SOURCE_PATH}/engine")
 
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
@@ -16,8 +16,8 @@ vcpkg_cmake_configure(
 vcpkg_cmake_install()
 
 vcpkg_cmake_config_fixup(
-        PACKAGE_NAME portal-serialization
-        CONFIG_PATH share/portal-serialization
+        PACKAGE_NAME portal-engine
+        CONFIG_PATH share/portal-engine
 )
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")

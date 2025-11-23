@@ -1,17 +1,16 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO JonatanNevo/portal-framework
-        REF 7d61b15bef00a9850884826aa3a1fe0ee182d325
-        SHA512 2c5fbfbea5a9b1bc05e220815100dfd4838f87af16fa18740d711b26840ba1e929c41dd1766daec992f66216851b9095a2ab900873747e700a73d762299d30d4
-        HEAD_REF main
+        REF 4a94c6ed75fd55a3a64b863a34463d28019816e8
+        SHA512 81f0013b52ba4de49717fd2cd1a881bb2fbaf8c6e2d955311b051fcf0eb42b183c90541097453ea8adb32bbd9a1bac753aa10dbaee4aaeb24afd623a841c2137
+        HEAD_REF fix/vcpkg-packaging
 )
 
 set(SOURCE_PATH "${SOURCE_PATH}/application")
 
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
-        OPTIONS
-        -DPORTAL_FIND_PACAKGE=ON
+        
 )
 
 vcpkg_cmake_install()

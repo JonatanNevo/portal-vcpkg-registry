@@ -1,13 +1,9 @@
 {
-  "name": "portal-application",
+  "name": "llvm-adt",
   "version": "0.1.0",
-  "description": "The application interface for the Portal framework",
+  "description": "The ADT containers from the llvm project",
   "license": "MIT",
   "dependencies": [
-    {
-      "name": "portal-core",
-      "version>=": "0.1.0"
-    },
     {
       "name": "vcpkg-cmake",
       "host": true
