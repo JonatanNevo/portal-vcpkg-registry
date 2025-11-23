@@ -160,18 +160,8 @@
                     "features": []
                 },
                 {
-                    "name": "portal-serialization",
-                    "version": "0.1.0",
-                    "features": []
-                },
-                {
                     "name": "concurrentqueue",
                     "version": "1.0.4",
-                    "features": []
-                },
-                {
-                    "name": "vulkan-memory-allocator",
-                    "version": "3.1.0",
                     "features": []
                 },
                 {

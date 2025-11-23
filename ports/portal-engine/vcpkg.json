@@ -38,10 +38,6 @@
       "version>=": "0.1.0"
     },
     {
-      "name": "portal-serialization",
-      "version>=": "0.1.0"
-    },
-    {
       "name": "shader-slang",
       "version>=": "2025.14.3"
     },
@@ -56,10 +52,6 @@
     {
       "name": "vcpkg-cmake-config",
       "host": true
-    },
-    {
-      "name": "vulkan-memory-allocator",
-      "version>=": "3.1.0"
     },
     {
       "name": "vulkan-memory-allocator",
