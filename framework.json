@@ -55,6 +55,10 @@
           "features": [
             "gui-tools"
           ]
+        },
+        {
+          "name": "frozen",
+          "version": "1.2.0"
         }
       ],
       "features": [
