@@ -16,7 +16,7 @@
       "name": "portal-core",
       "short_name": "core",
       "target_override": null,
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Application interface for the Portal framework",
       "options": [
         "PORTAL_FIND_PACAKGE=ON"
@@ -94,7 +94,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.4",
+          "version": "0.1.5",
           "features": []
         }
       ]
@@ -112,7 +112,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.4",
+          "version": "0.1.5",
           "features": []
         },
         {
@@ -145,7 +145,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.4",
+          "version": "0.1.5",
           "features": []
         },
         {
@@ -168,7 +168,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.4",
+          "version": "0.1.5",
           "features": []
         },
         {
@@ -189,6 +189,11 @@
         "PORTAL_BUILD_TESTS=OFF"
       ],
       "dependencies": [
+        {
+          "name": "portal-core",
+          "version": "0.1.5",
+          "features": []
+        },
         {
           "name": "portal-input",
           "version": "0.1.2",
