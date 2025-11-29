@@ -12,6 +12,7 @@ vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
         OPTIONS
         -DPORTAL_FIND_PACAKGE=ON
+        -DPORTAL_BUILD_TESTS=OFF
 )
 
 vcpkg_cmake_install()
