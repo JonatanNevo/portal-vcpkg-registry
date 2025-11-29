@@ -10,7 +10,8 @@ set(SOURCE_PATH "${SOURCE_PATH}/networking")
 
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
-        
+        OPTIONS
+        -DPORTAL_FIND_PACAKGE=ON
 )
 
 vcpkg_cmake_install()

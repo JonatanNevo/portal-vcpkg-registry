@@ -87,7 +87,9 @@
       "target_override": null,
       "version": "0.1.2",
       "description": "The application interface for the Portal framework",
-      "options": [],
+      "options": [
+        "PORTAL_FIND_PACAKGE=ON"
+      ],
       "dependencies": [
         {
           "name": "portal-core",
@@ -102,7 +104,9 @@
       "target_override": null,
       "version": "0.1.2",
       "description": "The input interface for the Portal framework",
-      "options": [],
+      "options": [
+        "PORTAL_FIND_PACAKGE=ON"
+      ],
       "dependencies": [
         {
           "name": "portal-core",
@@ -132,7 +136,9 @@
       "target_override": null,
       "version": "0.1.2",
       "description": "The networking interface for the Portal framework",
-      "options": [],
+      "options": [
+        "PORTAL_FIND_PACAKGE=ON"
+      ],
       "dependencies": [
         {
           "name": "portal-core",
@@ -152,7 +158,9 @@
       "target_override": null,
       "version": "0.1.2",
       "description": "The serialization interface for the Portal framework",
-      "options": [],
+      "options": [
+        "PORTAL_FIND_PACAKGE=ON"
+      ],
       "dependencies": [
         {
           "name": "portal-core",
@@ -172,7 +180,9 @@
       "target_override": null,
       "version": "0.1.2",
       "description": "A game engine built on top of the Portal framework",
-      "options": [],
+      "options": [
+        "PORTAL_FIND_PACAKGE=ON"
+      ],
       "dependencies": [
         {
           "name": "portal-input",
