@@ -33,7 +33,7 @@
       "port-version": 0
     },
     "portal-serialization": {
-      "baseline": "0.1.2",
+      "baseline": "0.1.3",
       "port-version": 0
     },
     "spdlog": {
