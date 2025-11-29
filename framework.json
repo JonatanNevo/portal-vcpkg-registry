@@ -24,7 +24,7 @@
       "dependencies": [
         {
           "name": "llvm-adt",
-          "version": "0.1.0",
+          "version": "0.1.4",
           "features": []
         },
         {
@@ -93,7 +93,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.0",
+          "version": "0.1.3",
           "features": []
         }
       ]
@@ -110,12 +110,12 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.0",
+          "version": "0.1.3",
           "features": []
         },
         {
           "name": "portal-application",
-          "version": "0.1.0",
+          "version": "0.1.2",
           "features": []
         },
         {
@@ -142,7 +142,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.0",
+          "version": "0.1.3",
           "features": []
         },
         {
@@ -164,7 +164,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.0",
+          "version": "0.1.3",
           "features": []
         },
         {
@@ -186,17 +186,17 @@
       "dependencies": [
         {
           "name": "portal-input",
-          "version": "0.1.0",
+          "version": "0.1.2",
           "features": []
         },
         {
           "name": "portal-networking",
-          "version": "0.1.0",
+          "version": "0.1.2",
           "features": []
         },
         {
           "name": "portal-serialization",
-          "version": "0.1.0",
+          "version": "0.1.2",
           "features": []
         },
         {
