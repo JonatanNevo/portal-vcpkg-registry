@@ -6,7 +6,7 @@ vcpkg_from_github(
         HEAD_REF fix/vcpkg-packaging
 )
 
-set(SOURCE_PATH "${SOURCE_PATH}/core")
+set(SOURCE_PATH "${REPO_ROOT_PATH}/core")
 
 set(FEATURE_OPTIONS "")
 if("tests" IN_LIST FEATURES)

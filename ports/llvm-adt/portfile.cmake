@@ -6,7 +6,7 @@ vcpkg_from_github(
         HEAD_REF fix/vcpkg-packaging
 )
 
-set(SOURCE_PATH "${SOURCE_PATH}/llvm-adt")
+set(SOURCE_PATH "${REPO_ROOT_PATH}/llvm-adt")
 
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"

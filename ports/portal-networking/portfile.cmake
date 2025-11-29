@@ -6,7 +6,7 @@ vcpkg_from_github(
         HEAD_REF fix/vcpkg-packaging
 )
 
-set(SOURCE_PATH "${SOURCE_PATH}/networking")
+set(SOURCE_PATH "${REPO_ROOT_PATH}/networking")
 
 vcpkg_cmake_configure(
         SOURCE_PATH "${SOURCE_PATH}"
