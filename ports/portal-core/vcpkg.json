@@ -1,7 +1,6 @@
 {
   "name": "portal-core",
   "version": "0.1.2",
-  "port-version": 1,
   "description": "Application interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
@@ -43,5 +42,17 @@
       "name": "vcpkg-cmake-config",
       "host": true
     }
-  ]
+  ],
+  "features": {
+    "profile": {
+      "description": "Build with profiling enabled"
+    },
+    "tests": {
+      "description": "Build with tests enabled",
+      "dependencies": [
+        "benchmark",
+        "gtest"
+      ]
+    }
+  }
 }
