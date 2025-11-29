@@ -1,8 +1,8 @@
 vcpkg_from_github(
-        OUT_SOURCE_PATH SOURCE_PATH
+        OUT_SOURCE_PATH REPO_ROOT_PATH
         REPO JonatanNevo/portal-framework
-        REF 077e9f40226c2c75171002925d2904cef4dcdc5d
-        SHA512 4df3cc7a7aa745344bb00255c853c99eb25611e7c5f2ac2b0969f5fddd83d667143cfd9b3dd482f2b10c474b9f5bbe818e3b3040cc3795b6d2ae3258790ed9e7
+        REF 831f256b9f17b51eb4f16de8a2248c1ddb70987b
+        SHA512 ab3f4e15dc993b01971df14e5bc2f3c3bbdd50b074742b803dea5cdcdbc8156661a0d6e75dcd8871074850c3aee52588d63701f95addd96d02f0e80e7cfaebad
         HEAD_REF fix/vcpkg-packaging
 )
 
@@ -22,8 +22,9 @@ vcpkg_cmake_config_fixup(
         CONFIG_PATH share/portal-networking
 )
 
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include" "${CURRENT_PACKAGES_DIR}/debug/share")
 
 configure_file("${CMAKE_CURRENT_LIST_DIR}/usage" "${CURRENT_PACKAGES_DIR}/share/${PORT}/usage" COPYONLY)
 
 vcpkg_copy_pdbs()
+vcpkg_install_copyright(FILE_LIST "${REPO_ROOT_PATH}/LICENSE")

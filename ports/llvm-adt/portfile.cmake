@@ -1,8 +1,8 @@
 vcpkg_from_github(
-        OUT_SOURCE_PATH SOURCE_PATH
+        OUT_SOURCE_PATH REPO_ROOT_PATH
         REPO JonatanNevo/portal-framework
-        REF 6a641e2a2058567f212244740f9ddb7028616276
-        SHA512 e2bea09c17114c9551a206cbee1ec8602851de065c8f0cbb6e1ba8445148a043814959cb65d47a8b436858c422f5b4c10b132e46e3b1891cb4c687431dc3cdf4
+        REF 831f256b9f17b51eb4f16de8a2248c1ddb70987b
+        SHA512 ab3f4e15dc993b01971df14e5bc2f3c3bbdd50b074742b803dea5cdcdbc8156661a0d6e75dcd8871074850c3aee52588d63701f95addd96d02f0e80e7cfaebad
         HEAD_REF fix/vcpkg-packaging
 )
 
@@ -20,8 +20,9 @@ vcpkg_cmake_config_fixup(
         CONFIG_PATH share/llvm-adt
 )
 
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include" "${CURRENT_PACKAGES_DIR}/debug/share")
 
 configure_file("${CMAKE_CURRENT_LIST_DIR}/usage" "${CURRENT_PACKAGES_DIR}/share/${PORT}/usage" COPYONLY)
 
 vcpkg_copy_pdbs()
+vcpkg_install_copyright(FILE_LIST "${REPO_ROOT_PATH}/LICENSE")
