@@ -94,7 +94,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.3",
+          "version": "0.1.4",
           "features": []
         }
       ]
@@ -112,7 +112,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.3",
+          "version": "0.1.4",
           "features": []
         },
         {
@@ -145,7 +145,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.3",
+          "version": "0.1.4",
           "features": []
         },
         {
@@ -168,7 +168,7 @@
       "dependencies": [
         {
           "name": "portal-core",
-          "version": "0.1.3",
+          "version": "0.1.4",
           "features": []
         },
         {
