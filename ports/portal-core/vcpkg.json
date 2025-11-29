@@ -5,6 +5,10 @@
   "license": "MIT",
   "dependencies": [
     {
+      "name": "concurrentqueue",
+      "version>=": "1.0.4"
+    },
+    {
       "name": "enchantum",
       "version>=": "0.3.0"
     },
