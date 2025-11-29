@@ -7,7 +7,7 @@
       "name": "llvm-adt",
       "short_name": "llvm-adt",
       "target_override": "llvm::adt",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "The ADT containers from the llvm project",
       "options": [],
       "dependencies": []
