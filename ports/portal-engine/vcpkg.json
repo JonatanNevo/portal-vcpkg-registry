@@ -1,6 +1,7 @@
 {
   "name": "portal-engine",
   "version": "0.1.2",
+  "port-version": 1,
   "description": "A game engine built on top of the Portal framework",
   "license": "MIT",
   "dependencies": [

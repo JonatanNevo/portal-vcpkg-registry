@@ -19,7 +19,7 @@
       "version": "0.1.5",
       "description": "Application interface for the Portal framework",
       "options": [
-        "PORTAL_FIND_PACAKGE=ON"
+        "PORTAL_FIND_PACKAGE=ON"
       ],
       "dependencies": [
         {
@@ -88,7 +88,7 @@
       "version": "0.1.2",
       "description": "The application interface for the Portal framework",
       "options": [
-        "PORTAL_FIND_PACAKGE=ON",
+        "PORTAL_FIND_PACKAGE=ON",
         "PORTAL_BUILD_TESTS=OFF"
       ],
       "dependencies": [
@@ -106,7 +106,7 @@
       "version": "0.1.2",
       "description": "The input interface for the Portal framework",
       "options": [
-        "PORTAL_FIND_PACAKGE=ON",
+        "PORTAL_FIND_PACKAGE=ON",
         "PORTAL_BUILD_TESTS=OFF"
       ],
       "dependencies": [
@@ -139,7 +139,7 @@
       "version": "0.1.2",
       "description": "The networking interface for the Portal framework",
       "options": [
-        "PORTAL_FIND_PACAKGE=ON",
+        "PORTAL_FIND_PACKAGE=ON",
         "PORTAL_BUILD_TESTS=OFF"
       ],
       "dependencies": [
@@ -162,7 +162,7 @@
       "version": "0.1.3",
       "description": "The serialization interface for the Portal framework",
       "options": [
-        "PORTAL_FIND_PACAKGE=ON",
+        "PORTAL_FIND_PACKAGE=ON",
         "PORTAL_BUILD_TESTS=OFF"
       ],
       "dependencies": [
@@ -185,7 +185,7 @@
       "version": "0.1.2",
       "description": "A game engine built on top of the Portal framework",
       "options": [
-        "PORTAL_FIND_PACAKGE=ON",
+        "PORTAL_FIND_PACKAGE=ON",
         "PORTAL_BUILD_TESTS=OFF"
       ],
       "dependencies": [
