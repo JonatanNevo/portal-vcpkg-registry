@@ -1,5 +1,13 @@
 {
   "default": {
+    "enchantum": {
+      "baseline": "0.3.0",
+      "port-version": 0
+    },
+    "glaze": {
+      "baseline": "6.0.1",
+      "port-version": 0
+    },
     "llvm-adt": {
       "baseline": "0.1.2",
       "port-version": 0
@@ -26,6 +34,10 @@
     },
     "portal-serialization": {
       "baseline": "0.1.2",
+      "port-version": 0
+    },
+    "spdlog": {
+      "baseline": "1.16.0",
       "port-version": 0
     }
   }
