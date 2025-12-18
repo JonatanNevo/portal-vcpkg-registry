@@ -1,7 +1,6 @@
 {
   "name": "llvm-adt",
   "version": "0.2.0",
-  "port-version": 0,
   "description": "The ADT containers from the llvm project",
   "license": "MIT",
   "dependencies": [
