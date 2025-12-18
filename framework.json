@@ -1,17 +1,8 @@
 {
   "repo": "JonatanNevo/portal-framework",
-  "repo_branch": "fix/vcpkg-packaging",
+  "repo_branch": "main",
   "vcpkg_registry_repo": "JonatanNevo/portal-vcpkg-registry",
   "modules": [
-    {
-      "name": "llvm-adt",
-      "short_name": "llvm-adt",
-      "target_override": "llvm::adt",
-      "version": "0.1.4",
-      "description": "The ADT containers from the llvm project",
-      "options": [],
-      "dependencies": []
-    },
     {
       "name": "portal-core",
       "short_name": "core",
@@ -24,7 +15,7 @@
       "dependencies": [
         {
           "name": "llvm-adt",
-          "version": "0.1.4",
+          "version": "0.2.0",
           "features": []
         },
         {
