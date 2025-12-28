@@ -22,7 +22,7 @@
     },
     "portal-engine": {
       "baseline": "0.1.6",
-      "port-version": 0
+      "port-version": 1
     },
     "portal-input": {
       "baseline": "0.1.4",
