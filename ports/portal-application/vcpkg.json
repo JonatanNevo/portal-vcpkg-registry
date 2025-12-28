@@ -1,13 +1,13 @@
 {
   "name": "portal-application",
   "version": "0.1.5",
-  "port-version": 1,
+  "port-version": 2,
   "description": "The application interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
     {
       "name": "portal-core",
-      "version>=": "0.1.7"
+      "version>=": "0.1.8"
     },
     {
       "name": "vcpkg-cmake",
