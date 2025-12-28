@@ -1,9 +1,14 @@
 {
   "name": "portal-engine",
   "version": "0.1.6",
+  "port-version": 1,
   "description": "A game engine built on top of the Portal framework",
   "license": "MIT",
   "dependencies": [
+    {
+      "name": "entt",
+      "version>=": "3.16.0"
+    },
     {
       "name": "fastgltf",
       "version>=": "0.9.0"

@@ -238,6 +238,10 @@
           "name": "stb",
           "version": "2024-07-29#1",
           "features": []
+        },
+        {
+          "name": "entt",
+          "version": "3.16.0"
         }
       ]
     }
