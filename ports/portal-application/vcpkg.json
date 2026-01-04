@@ -1,7 +1,6 @@
 {
   "name": "portal-application",
-  "version": "0.1.5",
-  "port-version": 5,
+  "version": "0.1.6",
   "description": "The application interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
