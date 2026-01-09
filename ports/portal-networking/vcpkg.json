@@ -1,7 +1,7 @@
 {
   "name": "portal-networking",
   "version": "0.1.4",
-  "port-version": 10,
+  "port-version": 11,
   "description": "The networking interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
