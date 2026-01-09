@@ -14,34 +14,16 @@
       "version>=": "0.9.0"
     },
     {
-      "name": "glaze",
-      "version>=": "6.0.1"
-    },
-    {
       "name": "imgui",
       "features": [
         "docking-experimental",
-        "glfw-binding",
-        "vulkan-binding"
+        "glfw-binding"
       ],
-      "version>=": "1.91.7"
+      "version>=": "1.91.9"
     },
-    {
-      "name": "portal-core",
-      "version>=": "0.1.8"
-    },
-    {
-      "name": "portal-input",
-      "version>=": "0.1.5"
-    },
-    {
-      "name": "portal-networking",
-      "version>=": "0.1.4"
-    },
-    {
-      "name": "portal-serialization",
-      "version>=": "0.1.6"
-    },
+    "portal-input",
+    "portal-networking",
+    "portal-serialization",
     {
       "name": "shader-slang",
       "version>=": "2025.14.3"
@@ -68,7 +50,7 @@
     },
     {
       "name": "vulkan-memory-allocator",
-      "version>=": "3.1.0"
+      "version>=": "3.3.0"
     }
   ]
 }

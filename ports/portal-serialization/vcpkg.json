@@ -6,13 +6,14 @@
   "license": "MIT",
   "dependencies": [
     {
+      "name": "glaze",
+      "version>=": "6.0.1"
+    },
+    {
       "name": "nlohmann-json",
       "version>=": "3.11.3#1"
     },
-    {
-      "name": "portal-core",
-      "version>=": "0.1.8"
-    },
+    "portal-core",
     {
       "name": "vcpkg-cmake",
       "host": true

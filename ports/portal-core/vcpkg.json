@@ -1,7 +1,8 @@
 {
   "name": "portal-core",
   "version": "0.1.11",
-  "description": "Base module for the Portal framework",
+  "port-version": 1,
+  "description": "Base module for the Portal framework.",
   "license": "MIT",
   "dependencies": [
     {
@@ -36,13 +37,6 @@
       "version>=": "1.16.0"
     },
     {
-      "name": "tracy",
-      "features": [
-        "gui-tools"
-      ],
-      "version>=": "0.11.1#2"
-    },
-    {
       "name": "vcpkg-cmake",
       "host": true
     },
@@ -50,17 +44,5 @@
       "name": "vcpkg-cmake-config",
       "host": true
     }
-  ],
-  "features": {
-    "profile": {
-      "description": "Build with profiling enabled"
-    },
-    "tests": {
-      "description": "Build with tests enabled",
-      "dependencies": [
-        "benchmark",
-        "gtest"
-      ]
-    }
-  }
+  ]
 }

@@ -6,30 +6,20 @@
   "license": "MIT",
   "dependencies": [
     {
-      "name": "glaze",
-      "version>=": "6.0.1"
-    },
-    {
-      "name": "glfw3",
-      "version>=": "3.4#1",
-      "platform": "!linux"
-    },
-    {
       "name": "glfw3",
       "features": [
         "wayland"
       ],
-      "version>=": "3.4#1",
-      "platform": "linux"
+      "platform": "linux",
+      "version>=": "3.4#1"
     },
     {
-      "name": "portal-application",
-      "version>=": "0.1.5"
+      "name": "glfw3",
+      "platform": "!linux",
+      "version>=": "3.4#1"
     },
-    {
-      "name": "portal-core",
-      "version>=": "0.1.8"
-    },
+    "portal-application",
+    "portal-core",
     {
       "name": "vcpkg-cmake",
       "host": true
