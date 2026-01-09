@@ -1,7 +1,7 @@
 {
   "name": "portal-core",
   "version": "0.1.11",
-  "port-version": 7,
+  "port-version": 8,
   "description": "Base module for the Portal framework.",
   "license": "MIT",
   "dependencies": [
@@ -24,13 +24,6 @@
     {
       "name": "llvm-adt",
       "version>=": "0.2.0"
-    },
-    {
-      "name": "mimalloc",
-      "features": [
-        "override"
-      ],
-      "version>=": "2.2.3#1"
     },
     {
       "name": "spdlog",
