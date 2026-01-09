@@ -1,7 +1,7 @@
 {
   "name": "portal-serialization",
   "version": "0.1.7",
-  "port-version": 3,
+  "port-version": 4,
   "description": "The serialization interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
