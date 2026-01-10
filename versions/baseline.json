@@ -14,27 +14,27 @@
     },
     "portal-application": {
       "baseline": "0.1.6",
-      "port-version": 17
+      "port-version": 18
     },
     "portal-core": {
       "baseline": "0.1.11",
-      "port-version": 16
+      "port-version": 17
     },
     "portal-engine": {
       "baseline": "0.1.10",
-      "port-version": 17
+      "port-version": 18
     },
     "portal-input": {
       "baseline": "0.1.6",
-      "port-version": 15
+      "port-version": 16
     },
     "portal-networking": {
       "baseline": "0.1.4",
-      "port-version": 23
+      "port-version": 24
     },
     "portal-serialization": {
       "baseline": "0.1.7",
-      "port-version": 17
+      "port-version": 18
     },
     "spdlog": {
       "baseline": "1.16.0",
