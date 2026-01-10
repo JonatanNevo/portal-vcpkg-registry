@@ -1,7 +1,7 @@
 {
   "name": "portal-core",
   "version": "0.1.11",
-  "port-version": 17,
+  "port-version": 18,
   "description": "Base module for the Portal framework.",
   "license": "MIT",
   "dependencies": [
