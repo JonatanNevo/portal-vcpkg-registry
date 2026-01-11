@@ -1,6 +1,7 @@
 {
   "name": "portal-application",
   "version": "0.1.7",
+  "port-version": 1,
   "description": "The application module for the Portal framework.",
   "license": "MIT",
   "dependencies": [

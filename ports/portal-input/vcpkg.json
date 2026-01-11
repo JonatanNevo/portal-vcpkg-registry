@@ -1,6 +1,7 @@
 {
   "name": "portal-input",
   "version": "0.1.7",
+  "port-version": 1,
   "description": "The input interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
