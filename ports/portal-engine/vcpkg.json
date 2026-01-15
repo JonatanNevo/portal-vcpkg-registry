@@ -1,7 +1,7 @@
 {
   "name": "portal-engine",
   "version": "0.1.11",
-  "port-version": 1,
+  "port-version": 2,
   "description": "A game engine built on top of the Portal framework",
   "license": "MIT",
   "dependencies": [
@@ -20,6 +20,10 @@
         "glfw-binding"
       ],
       "version>=": "1.91.9"
+    },
+    {
+      "name": "imguizmo",
+      "version>=": "2024-05-29#1"
     },
     "portal-input",
     "portal-networking",
