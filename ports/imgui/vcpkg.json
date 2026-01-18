@@ -1,7 +1,7 @@
 {
   "name": "imgui",
   "version": "1.92.5",
-  "port-version": 2,
+  "port-version": 3,
   "description": "Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.",
   "homepage": "https://github.com/ocornut/imgui",
   "license": "MIT",
@@ -74,6 +74,10 @@
         {
           "name": "glfw3",
           "platform": "!emscripten"
+        },
+        {
+          "name": "libx11",
+          "platform": "linux"
         }
       ]
     },
