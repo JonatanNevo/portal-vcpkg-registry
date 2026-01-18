@@ -10,7 +10,7 @@
     },
     "imgui": {
       "baseline": "1.92.5",
-      "port-version": 4
+      "port-version": 5
     },
     "llvm-adt": {
       "baseline": "0.2.0",
