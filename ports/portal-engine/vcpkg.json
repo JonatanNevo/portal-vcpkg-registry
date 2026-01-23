@@ -1,10 +1,13 @@
 {
   "name": "portal-engine",
-  "version": "0.1.11",
-  "port-version": 2,
+  "version": "0.1.12",
   "description": "A game engine built on top of the Portal framework",
   "license": "MIT",
   "dependencies": [
+    {
+      "name": "argparse",
+      "version>=": "3.2"
+    },
     {
       "name": "entt",
       "version>=": "3.16.0"
@@ -16,8 +19,7 @@
     {
       "name": "imgui",
       "features": [
-        "docking-experimental",
-        "glfw-binding"
+        "docking-experimental"
       ],
       "version>=": "1.91.9"
     },
