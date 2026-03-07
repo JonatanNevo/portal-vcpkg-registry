@@ -1,0 +1,11 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 1234567..abcdefg 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -53,5 +53,5 @@
+ install(EXPORT enchantumTargets
+     NAMESPACE enchantum::
+-    DESTINATION ${CMAKE_INSTALL_DATADIR}/enchantum/cmake
++    DESTINATION cmake
+     COMPONENT enchantum
+ )
