@@ -4,8 +4,6 @@ vcpkg_from_github(
     REF ${VERSION}
     SHA512 f0eb25164bc6b9f0579267f03f2080615972b4a81ff2f9b0fa8c8621888b775e13e7c250895678e4a98bfccdbb38b5d3e137b3ac198cb6122f68ec015293d11b
     HEAD_REF main
-    PATCHES
-        fix_target_location.patch
 )
 
 set(VCPKG_BUILD_TYPE release)
