@@ -1,17 +1,12 @@
 {
   "name": "portal-engine",
-  "version": "0.1.13",
-  "port-version": 4,
+  "version": "0.1.15",
   "description": "A game engine built on top of the Portal framework",
   "license": "MIT",
   "dependencies": [
     {
       "name": "argparse",
       "version>=": "3.2"
-    },
-    {
-      "name": "entt",
-      "version>=": "3.16.0"
     },
     {
       "name": "fastgltf",
@@ -33,11 +28,15 @@
     "portal-serialization",
     {
       "name": "shader-slang",
-      "version>=": "2025.14.3"
+      "version>=": "2025.22.1"
     },
     {
       "name": "stb",
       "version>=": "2024-07-29#1"
+    },
+    {
+      "name": "tinyobjloader",
+      "version>=": "2.0.0rc13"
     },
     {
       "name": "vcpkg-cmake",

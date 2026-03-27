@@ -1,22 +1,12 @@
 {
   "name": "portal-application",
-  "version": "0.1.8",
-  "port-version": 9,
+  "version": "0.1.10",
   "description": "The application module for the Portal framework.",
   "license": "MIT",
   "dependencies": [
     {
-      "name": "glfw3",
-      "features": [
-        "wayland"
-      ],
-      "platform": "linux",
-      "version>=": "3.4#1"
-    },
-    {
-      "name": "glfw3",
-      "platform": "!linux",
-      "version>=": "3.4#1"
+      "name": "entt",
+      "version>=": "3.16.0"
     },
     "portal-core",
     "portal-serialization",
