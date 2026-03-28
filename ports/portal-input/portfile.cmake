@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH REPO_ROOT_PATH
         REPO JonatanNevo/portal-framework
-        REF 133ab799860f86abfefbe77f275e56a567be4722
-        SHA512 bba45fb9542a08e9563cd23e7b8495f56044678a5fd8fe42e0cab7a507aba06e25a86fc207b985e6470f4f4387ed72847c7df3550c28537dac2bda2d9d40abc4
+        REF 28522dd0ce22aa5a5d69b68a870d656c12b8424c
+        SHA512 45b13d235039e2f22be4607bade3a39dc3041cfcd87a0dfb860d7a8af06ee537b8edf0d5b348e4f453c1c9d845c048631bd0126a10abdcb1e45675c7d1236d27
         HEAD_REF fix/installer-errors
 )
 
