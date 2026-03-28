@@ -1,23 +1,9 @@
 {
   "name": "portal-input",
-  "version": "0.2.0",
-  "port-version": 3,
+  "version": "0.2.1",
   "description": "The input interface for the Portal framework",
   "license": "MIT",
   "dependencies": [
-    {
-      "name": "glfw3",
-      "features": [
-        "wayland"
-      ],
-      "platform": "linux",
-      "version>=": "3.4#1"
-    },
-    {
-      "name": "glfw3",
-      "platform": "!linux",
-      "version>=": "3.4#1"
-    },
     "portal-application",
     "portal-core",
     {
