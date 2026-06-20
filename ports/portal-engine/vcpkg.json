@@ -1,6 +1,7 @@
 {
   "name": "portal-engine",
   "version": "0.1.19",
+  "port-version": 1,
   "description": "A game engine built on top of the Portal framework",
   "license": "MIT",
   "dependencies": [
@@ -21,7 +22,7 @@
     },
     {
       "name": "imguizmo",
-      "version>=": "2024-05-29#1"
+      "version>=": "1.9"
     },
     "portal-input",
     "portal-serialization",
